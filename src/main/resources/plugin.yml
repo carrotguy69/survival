@@ -1,0 +1,39 @@
+name: SurvivalRevamp
+version: '${project.version}'
+main: com.carrotguy69.Main
+api-version: 1.21
+commands:
+  broadcast:
+    description: broadcast a message to the server & discord
+    aliases: [saysomething]
+  discord:
+    description: join the discord
+    aliases: [dc]
+  vanish:
+    description: vanish yourself
+    aliases: [kys]
+  unvanish:
+    description: self explanatory
+    aliases: [unkys]
+  mute:
+    description: mute a guy
+  unmute:
+    description: unmute a guy!?
+  nickname:
+    description: nickname yourself
+    aliases: [nick, name]
+  removenickname:
+    description: un-nickname yourself
+    aliases: [resetnick, nickremove, nickreset]
+  fakefullbright:
+    description: toggle night vision
+    aliases: [fullbright, fb, fakefullbright]
+  invsee:
+    description: see inside a players inventory
+    aliases: [inventorysee, is, invs, invensee, seeinv, seeinventory]
+    permission: op
+  echest:
+    description: see inside a players enderchest
+    aliases: [enderchest]
+    permission: op
+
